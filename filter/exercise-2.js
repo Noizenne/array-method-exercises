@@ -38,6 +38,6 @@ const users = [
   },
 ];
 
-const filteredUsers = null; // Replace null and add .filter code here
+const filteredUsers = users.filter ((item) => item.isAdmin && item.isVerified); // Replace null and add .filter code here
 
 console.log(filteredUsers);
